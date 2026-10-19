@@ -1,42 +1,42 @@
-# ZENES® — Portfólio de Video Editor
+# ZENES® — Video Editor Portfolio
 
-Site estático responsivo para apresentar os trabalhos do Zenes, receber pedidos de orçamento pelo Instagram e divulgar recursos digitais na Payhip. A identidade visual usa preto, branco e tons neutros.
+A responsive static website showcasing Zenes’ edits, directing commission requests to Instagram, and featuring digital editing resources on Payhip. The visual identity uses black, white, and neutral tones.
 
-## Arquivos
+## Files
 
-- `index.html` — conteúdo e estrutura das seções.
-- `styles.css` — identidade visual, layout e responsividade.
-- `script.js` — atualiza o ano do rodapé e revela os players do TikTok quando estiverem prontos.
-- `assets/favicon.svg` — ícone da aba do navegador.
+- `index.html` — page content and section structure.
+- `styles.css` — visual identity, layout, and responsive styles.
+- `script.js` — updates the footer year and reveals TikTok players when they are ready.
+- `assets/favicon.svg` — browser tab icon.
 
-## Destaques com reprodução no site
+## Featured edits with on-site playback
 
-Os dois destaques usam o player oficial incorporado do TikTok, com tentativa de reprodução automática e repetição. O navegador pode impedir o autoplay com áudio; nesse caso, o visitante pode apertar play no próprio player.
+The two featured edits use TikTok’s official embedded player, with autoplay and looping requested. Browsers may block autoplay with sound; visitors can start playback using the player controls.
 
-Enquanto o player carrega, o site mostra uma capa de fallback em preto e branco. Se o player não funcionar ou for bloqueado, a capa permite abrir o vídeo original diretamente no TikTok. Os destaques correspondem aos vídeos enviados pelo proprietário.
+While the player loads, the site displays a black-and-white fallback cover. If the player fails or is blocked, the cover links directly to the original TikTok video. The featured edits are the videos supplied by the owner.
 
-## Publicar no GitHub Pages
+## Publish with GitHub Pages
 
-1. Crie um repositório no GitHub.
-2. Envie todos os arquivos e a pasta `assets` para a raiz do repositório.
-3. Abra **Settings → Pages**.
-4. Em **Build and deployment**, selecione **Deploy from a branch**.
-5. Selecione a branch `main` e a pasta `/ (root)`, depois salve.
-6. Abra o endereço exibido na seção Pages depois da publicação.
+1. Create a repository on GitHub.
+2. Upload all files and the `assets` folder to the repository root.
+3. Open **Settings → Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch and the `/ (root)` folder, then save.
+6. Open the address shown in the Pages section after deployment.
 
-Não mova apenas o `index.html`: mantenha `styles.css`, `script.js` e a pasta `assets` junto dele para carregar o layout e o ícone corretamente.
+Do not upload only `index.html`: keep `styles.css`, `script.js`, and the `assets` folder alongside it so the layout, interactions, and icon load correctly.
 
-## Personalização
+## Customization
 
-- **Nome e textos:** edite os títulos e parágrafos em `index.html`.
-- **Cores:** edite as variáveis no início de `styles.css`. A proposta usa preto, branco e tons de cinza.
-- **Instagram, TikTok e Payhip:** os links estão nos botões e cartões do `index.html`.
-- **Trocar os destaques:** altere os IDs nas URLs `https://www.tiktok.com/player/v1/` e os links de fallback nos dois cartões da seção `EM DESTAQUE`.
-- **Recursos da loja:** os cards `CC Quality` e `Main Topaz` apontam para a loja Payhip do Zenes. Atualize os nomes no HTML se os produtos mudarem.
+- **Name and copy:** edit the headings and paragraphs in `index.html`.
+- **Colors:** edit the variables at the beginning of `styles.css`. The design uses black, white, and gray tones.
+- **Instagram, TikTok, and Payhip:** links are configured on the buttons and cards in `index.html`.
+- **Replace featured edits:** update the IDs in the `https://www.tiktok.com/player/v1/` URLs and the fallback links in the two featured-work cards.
+- **Store resources:** the `CC Quality` and `Main Topaz` cards point to Zenes’ Payhip store. Update their names in the HTML if the products change.
 
-## Observações
+## Notes
 
-- O site não exige servidor, login, banco de dados nem build.
-- Os vídeos do TikTok e as fontes do Google dependem de conexão com a internet.
-- O autoplay com som pode ser bloqueado pelo navegador. Os visitantes sempre podem iniciar a reprodução no próprio player.
-- Nenhum preço, depoimento ou resultado de cliente foi inventado para o portfólio.
+- The site does not require a server, login, database, or build step.
+- TikTok videos and Google Fonts require an internet connection.
+- Browsers may block autoplay with sound. Visitors can always start playback in the embedded player.
+- No prices, testimonials, or client results have been invented for this portfolio.
