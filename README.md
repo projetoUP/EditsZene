@@ -20,11 +20,11 @@ Site estático responsivo para apresentar os trabalhos do Zenes, receber pedidos
 
 Não mova apenas o `index.html`: mantenha `styles.css`, `script.js` e a pasta `assets` junto dele para carregar o layout e o ícone corretamente.
 
-## Vídeos em destaque
+## Destaques do TikTok
 
-Os dois vídeos são incorporados pelo player do TikTok. Se a plataforma bloquear a incorporação no navegador, os links **VER NO TIKTOK** continuam disponíveis em cada card.
+Os dois destaques usam capas visuais criadas em CSS. Ao clicar, cada capa abre o vídeo original no TikTok em uma nova aba. Isso evita que um player incorporado bloqueado pela plataforma deixe uma área branca dentro do portfólio.
 
-Para trocar os destaques, edite no `index.html` os IDs dos vídeos nos endereços `/player/v1/ID_DO_VIDEO` e os respectivos links externos.
+Para trocar os destaques, edite os links `https://vt.tiktok.com/...` e os títulos correspondentes nos dois cartões da seção `EM DESTAQUE` em `index.html`.
 
 ## Personalização
 
